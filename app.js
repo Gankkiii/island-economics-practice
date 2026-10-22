@@ -32,12 +32,14 @@ function stats() {
     if (matchMedia('(max-width:800px)').matches) $('#practice').scrollIntoView({behavior:'smooth',block:'start'});
   });
 }
-function start(c) {
+function start(c, singleIndex = null) {
   reviewing=false; current=c; index=0; runResults=[];
-  queue=bank[c].questions.map((q,i) => [c,i]); render();
+  queue=singleIndex===null?bank[c].questions.map((q,i) => [c,i]):[[c,singleIndex]]; render();
 }
 function render() {
+  if (index < queue.length) current=queue[index][0];
   stats();
+  renderPoints();
   if (index >= queue.length) {
     $('#practice').innerHTML=`<div class="complete"><div class="seal">✓</div><div class="eyebrow">UNDERSTAND THE MECHANISM</div><h3>${reviewing?'本轮错题练习完成':'这一章，已完成。'}</h3><p>本轮 ${queue.length} 题，答对 ${runResults.filter(Boolean).length} 题。<br>试着不用选项，自己复述一次因果链。</p><button class="primary" id="again">再练一遍</button> <button class="primary" id="nextChapter">${reviewing?'返回章节练习':current<bank.length-1?'下一章 →':'回到第一章'}</button></div>`;
     $('#again').onclick=() => {index=0;runResults=[];render();};
@@ -46,7 +48,7 @@ function render() {
   }
   const [c,i]=queue[index], chapter=bank[c], q=chapter.questions[i]; current=c;
   options=shuffled(q);
-  $('#practice').innerHTML=`<div class="question-meta"><span>${reviewing?'错题重练 · ':''}第 ${String(c+1).padStart(2,'0')} 章 · ${chapter.title}</span><span class="tag">${q.kind}</span></div><div class="concept">本章主题 · ${q.concept}</div><h3 id="questionTitle" tabindex="-1">${q.q}</h3><div id="options">${options.map((o,n)=>`<button class="option" data-option="${n}"><b>${'ABCD'[n]}</b><span>${o.text}</span></button>`).join('')}</div><div id="feedback"></div><div class="question-bottom"><span>${String(index+1).padStart(2,'0')} / ${String(queue.length).padStart(2,'0')} · 选择最准确的一项</span><span id="nextSlot">选择后查看本章解析</span></div>`;
+  $('#practice').innerHTML=`<div class="question-meta"><span>${reviewing?'错题重练 · ':''}第 ${String(c+1).padStart(2,'0')} 章 · ${chapter.title}</span><span class="tag">${q.kind}</span></div><div class="concept">本章主题 · ${chapter.topic}</div><h3 id="questionTitle" tabindex="-1">${q.q}</h3><div id="options">${options.map((o,n)=>`<button class="option" data-option="${n}"><b>${'ABCD'[n]}</b><span>${o.text}</span></button>`).join('')}</div><div id="feedback"></div><div class="question-bottom"><span>${String(index+1).padStart(2,'0')} / ${String(queue.length).padStart(2,'0')} · 选择最准确的一项</span><span id="nextSlot">选择后查看观点与出处</span></div>`;
   document.querySelectorAll('.option').forEach(el=>el.onclick=()=>answer(+el.dataset.option,c,i,q));
 }
 function answer(n,c,i,q) {
@@ -57,10 +59,11 @@ function answer(n,c,i,q) {
     if(options[j].n===q.answer)el.classList.add('correct');
     else if(j===n)el.classList.add('wrong');
   });
-  $('#feedback').innerHTML=`<div class="feedback"><strong>${correct?'✓ 回答正确':'所选答案不够准确'} · 正确答案 ${'ABCD'[options.findIndex(o=>o.n===q.answer)]}</strong><div class="analysis-block"><b>为什么这样选</b><p>${q.explanation}</p></div><div class="analysis-block"><b>容易混淆的地方</b><p>${q.trap}</p></div><div class="analysis-block boundary"><b>本章要点</b><p>${q.boundary}</p></div><div class="source-line">原书：第 ${c+1} 章《${bank[c].title}》</div></div>`;
+  $('#feedback').innerHTML=`<div class="feedback"><strong>${correct?'✓ 回答正确':'所选答案不够准确'} · 正确答案 ${'ABCD'[options.findIndex(o=>o.n===q.answer)]}</strong><div class="analysis-block"><b>为什么这样选</b><p>${q.explanation}</p></div>${q.trap?`<div class="analysis-block"><b>容易混淆的地方</b><p>${q.trap}</p></div>`:""}<div class="analysis-block boundary"><b>对应作者观点 · ${q.pointId}</b><p>${q.claim}</p></div><div class="source-line">原书：第 ${c+1} 章《${bank[c].title}》 · PDF 第 ${q.source.pdfPage} 页<br>定位词：${q.source.locator}</div></div>`;
   $('#nextSlot').innerHTML=`<button class="primary" id="next">${index+1===queue.length?'查看本轮结果':'下一题 →'}</button>`;
   $('#next').onclick=()=>{index++;render();$('#practice').scrollIntoView({behavior:'smooth',block:'start'});$('#questionTitle')?.focus({preventScroll:true});};
   stats();
+  renderPoints();
 }
 $('#continue').onclick=()=>{
   const c=bank.findIndex(ch=>ch.questions.some(q=>!records[q.id]));start(c<0?0:c);
@@ -75,4 +78,12 @@ $('#review').onclick=()=>{
   $('#practice').scrollIntoView({behavior:'smooth',block:'start'});
 };
 $('#reset').onclick=()=>{if(confirm('清除这个浏览器保存的章节理解练习记录？')){records={};persist();start(0);}};
+function renderPoints() {
+  const c=bank[current];
+  $('#pointPanelTitle').textContent=`第 ${current+1} 章观点清单 · ${c.questions.length} 条 / ${c.questions.length} 题`;
+  $('#chapterPoints').innerHTML=c.questions.map((q,i)=>`<li><div class="point-label"><span>${q.pointId}</span><em class="${records[q.id]?.correct?'understood':''}">${records[q.id]?records[q.id].correct?'已答对':'待巩固':'未练习'}</em></div><p>${q.claim}</p><div class="point-actions"><small>PDF 第 ${q.source.pdfPage} 页 · 定位词：${q.source.locator}</small><button class="quiet point-practice" data-question="${i}">练这一题 →</button></div></li>`).join('');
+  document.querySelectorAll('.point-practice').forEach(el=>el.onclick=()=>{start(current,+el.dataset.question);$('#practice').scrollIntoView({behavior:'smooth',block:'start'});});
+}
+$('#coverageSummary').innerHTML=`<table><thead><tr><th>章节</th><th>归纳观点</th><th>对应单选题</th></tr></thead><tbody>${bank.map(c=>`<tr><td><button class="quiet coverage-chapter" data-chapter="${c.id}">第 ${c.id+1} 章 · ${c.title}</button></td><td>${c.questions.length}</td><td>${c.questions.length}</td></tr>`).join('')}</tbody><tfoot><tr><td>合计（按章归纳）</td><td>${TOTAL_QUESTIONS}</td><td>${TOTAL_QUESTIONS}</td></tr></tfoot></table>`;
+document.querySelectorAll('.coverage-chapter').forEach(el=>el.onclick=()=>{start(+el.dataset.chapter);$('#pointPanel').open=true;$('#pointPanel').scrollIntoView({behavior:'smooth',block:'start'});});
 start(0);
