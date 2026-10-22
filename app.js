@@ -1,13 +1,4 @@
-const STORAGE_KEY = 'island-finance-v3';
-const SOURCES = {
-  note: {title:'赵裕 · 读书：《小岛经济学》',url:'https://vimerzhao.top/articles/how-an-economy-grows-and-why-it-crashes/',role:'阅读笔记：提供资本、储蓄与利率的讨论线索；题目独立编写，不照搬笔记结论。'},
-  review: {title:'捕鲸手 ·《小岛经济学》读书笔记',url:'https://book.douban.com/review/13031831/',role:'读者讨论：启发对价格下降、危机调整成本的进一步提问，读者观点不作为标准答案依据。'},
-  critique: {title:'rica7350 · 此书不适合作为入门读物',url:'https://book.douban.com/review/8523377/',role:'批评性书评：提醒区分作者立场、简化模型与现实证据，不代表本站全盘认同该书评。'},
-  money: {title:'英格兰银行 · Money creation in the modern economy',url:'https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy',role:'机制补充：现代商业银行的贷款与存款创造，帮助辨认实物借贷模型的适用范围。'},
-  qe: {title:'英格兰银行 · Quantitative easing',url:'https://www.bankofengland.co.uk/monetary-policy/quantitative-easing',role:'机制补充：资产购买、债券收益率与货币政策传导。其政策评价与本书立场不同。'},
-  inflation: {title:'IMF · 意外通胀与公共财政',url:'https://www.imf.org/en/Blogs/Articles/2023/04/03/fiscal-policy-can-help-tame-inflation-and-protect-the-most-vulnerable',role:'机制补充：未预期通胀如何影响固定名义债权债务及不同家庭。'},
-  deflation: {title:'IMF · Deflation: Determinants, Risks, and Policy Options',url:'https://www.imf.org/external/pubs/nft/op/221/index.htm',role:'延伸参考：通缩的原因、债务负担与风险，帮助比较效率降价与债务通缩。'}
-};
+const STORAGE_KEY = 'island-book-understanding-v4';
 const $ = s => document.querySelector(s);
 const validIds = new Set(bank.flatMap(c => c.questions.map(q => q.id)));
 let records = {};
@@ -55,7 +46,7 @@ function render() {
   }
   const [c,i]=queue[index], chapter=bank[c], q=chapter.questions[i]; current=c;
   options=shuffled(q);
-  $('#practice').innerHTML=`<div class="question-meta"><span>${reviewing?'错题重练 · ':''}第 ${String(c+1).padStart(2,'0')} 章 · ${chapter.title}</span><span class="tag">${q.kind}</span></div><div class="concept">考察概念 · ${q.concept}</div><h3 id="questionTitle" tabindex="-1">${q.q}</h3><div id="options">${options.map((o,n)=>`<button class="option" data-option="${n}"><b>${'ABCD'[n]}</b><span>${o.text}</span></button>`).join('')}</div><div id="feedback"></div><div class="question-bottom"><span>${String(index+1).padStart(2,'0')} / ${String(queue.length).padStart(2,'0')} · 选择最准确的一项</span><span id="nextSlot">选择后展开推理解析</span></div>`;
+  $('#practice').innerHTML=`<div class="question-meta"><span>${reviewing?'错题重练 · ':''}第 ${String(c+1).padStart(2,'0')} 章 · ${chapter.title}</span><span class="tag">${q.kind}</span></div><div class="concept">本章主题 · ${q.concept}</div><h3 id="questionTitle" tabindex="-1">${q.q}</h3><div id="options">${options.map((o,n)=>`<button class="option" data-option="${n}"><b>${'ABCD'[n]}</b><span>${o.text}</span></button>`).join('')}</div><div id="feedback"></div><div class="question-bottom"><span>${String(index+1).padStart(2,'0')} / ${String(queue.length).padStart(2,'0')} · 选择最准确的一项</span><span id="nextSlot">选择后查看本章解析</span></div>`;
   document.querySelectorAll('.option').forEach(el=>el.onclick=()=>answer(+el.dataset.option,c,i,q));
 }
 function answer(n,c,i,q) {
@@ -66,8 +57,7 @@ function answer(n,c,i,q) {
     if(options[j].n===q.answer)el.classList.add('correct');
     else if(j===n)el.classList.add('wrong');
   });
-  const links=(q.refs||[]).filter(id=>SOURCES[id]).map(id=>`<a href="${SOURCES[id].url}" target="_blank" rel="noopener noreferrer">${SOURCES[id].title} ↗</a>`).join('');
-  $('#feedback').innerHTML=`<div class="feedback"><strong>${correct?'✓ 回答正确':'所选答案不够准确'} · 正确答案 ${'ABCD'[options.findIndex(o=>o.n===q.answer)]}</strong><div class="analysis-block"><b>推理过程</b><p>${q.explanation}</p></div><div class="analysis-block"><b>常见误区</b><p>${q.trap}</p></div><div class="analysis-block boundary"><b>成立条件与边界</b><p>${q.boundary}</p></div><div class="source-line">原书：第 ${c+1} 章《${bank[c].title}》${links?'<div>延伸阅读（读者观点或机制补充）：'+links+'</div>':''}</div></div>`;
+  $('#feedback').innerHTML=`<div class="feedback"><strong>${correct?'✓ 回答正确':'所选答案不够准确'} · 正确答案 ${'ABCD'[options.findIndex(o=>o.n===q.answer)]}</strong><div class="analysis-block"><b>为什么这样选</b><p>${q.explanation}</p></div><div class="analysis-block"><b>容易混淆的地方</b><p>${q.trap}</p></div><div class="analysis-block boundary"><b>本章要点</b><p>${q.boundary}</p></div><div class="source-line">原书：第 ${c+1} 章《${bank[c].title}》</div></div>`;
   $('#nextSlot').innerHTML=`<button class="primary" id="next">${index+1===queue.length?'查看本轮结果':'下一题 →'}</button>`;
   $('#next').onclick=()=>{index++;render();$('#practice').scrollIntoView({behavior:'smooth',block:'start'});$('#questionTitle')?.focus({preventScroll:true});};
   stats();
@@ -84,6 +74,5 @@ $('#review').onclick=()=>{
   }else{reviewing=true;index=0;runResults=[];render();}
   $('#practice').scrollIntoView({behavior:'smooth',block:'start'});
 };
-$('#reset').onclick=()=>{if(confirm('清除这个浏览器保存的进阶题库练习记录？')){records={};persist();start(0);}};
-$('#readingSources').innerHTML=Object.values(SOURCES).map(s=>`<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.title} ↗</a><p>${s.role}</p></li>`).join('');
+$('#reset').onclick=()=>{if(confirm('清除这个浏览器保存的章节理解练习记录？')){records={};persist();start(0);}};
 start(0);
