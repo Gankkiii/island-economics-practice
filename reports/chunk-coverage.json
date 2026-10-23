@@ -1,0 +1,1078 @@
+[
+  {
+    "source_id": "C01-chunk-0001",
+    "chapter": 1,
+    "start_char": 0,
+    "end_char": 1036,
+    "direct_evidence_point_ids": [
+      "C01-P01"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C01-chunk-0002",
+    "chapter": 1,
+    "start_char": 886,
+    "end_char": 2070,
+    "direct_evidence_point_ids": [
+      "C01-P02",
+      "C01-P03",
+      "C01-P08"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C01-chunk-0003",
+    "chapter": 1,
+    "start_char": 1920,
+    "end_char": 3034,
+    "direct_evidence_point_ids": [
+      "C01-P02",
+      "C01-P04",
+      "C01-P05"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C01-chunk-0004",
+    "chapter": 1,
+    "start_char": 2884,
+    "end_char": 3522,
+    "direct_evidence_point_ids": [
+      "C01-P06",
+      "C01-P07"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C02-chunk-0001",
+    "chapter": 2,
+    "start_char": 0,
+    "end_char": 1137,
+    "direct_evidence_point_ids": [
+      "C02-P01",
+      "C02-P02"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C02-chunk-0002",
+    "chapter": 2,
+    "start_char": 987,
+    "end_char": 2103,
+    "direct_evidence_point_ids": [
+      "C02-P03",
+      "C02-P04",
+      "C02-P06"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C02-chunk-0003",
+    "chapter": 2,
+    "start_char": 1953,
+    "end_char": 3126,
+    "direct_evidence_point_ids": [
+      "C02-P05",
+      "C02-P06"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C02-chunk-0004",
+    "chapter": 2,
+    "start_char": 2976,
+    "end_char": 4024,
+    "direct_evidence_point_ids": [
+      "C02-P07",
+      "C02-P08",
+      "C02-P09"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C02-chunk-0005",
+    "chapter": 2,
+    "start_char": 3874,
+    "end_char": 4459,
+    "direct_evidence_point_ids": [
+      "C02-P08",
+      "C02-P10"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C03-chunk-0001",
+    "chapter": 3,
+    "start_char": 0,
+    "end_char": 1085,
+    "direct_evidence_point_ids": [
+      "C03-P01",
+      "C03-P02",
+      "C03-P03",
+      "C03-P04"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C03-chunk-0002",
+    "chapter": 3,
+    "start_char": 935,
+    "end_char": 2113,
+    "direct_evidence_point_ids": [
+      "C03-P04",
+      "C03-P05",
+      "C03-P06",
+      "C03-P07"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C03-chunk-0003",
+    "chapter": 3,
+    "start_char": 1963,
+    "end_char": 2990,
+    "direct_evidence_point_ids": [
+      "C03-P07",
+      "C03-P08",
+      "C03-P09",
+      "C03-P10"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C04-chunk-0001",
+    "chapter": 4,
+    "start_char": 0,
+    "end_char": 1079,
+    "direct_evidence_point_ids": [
+      "C04-P01",
+      "C04-P02",
+      "C04-P03",
+      "C04-P04"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C04-chunk-0002",
+    "chapter": 4,
+    "start_char": 929,
+    "end_char": 2027,
+    "direct_evidence_point_ids": [
+      "C04-P03",
+      "C04-P04",
+      "C04-P05",
+      "C04-P06",
+      "C04-P07"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C04-chunk-0003",
+    "chapter": 4,
+    "start_char": 1877,
+    "end_char": 2449,
+    "direct_evidence_point_ids": [
+      "C04-P08"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C05-chunk-0001",
+    "chapter": 5,
+    "start_char": 0,
+    "end_char": 1161,
+    "direct_evidence_point_ids": [
+      "C05-P01",
+      "C05-P02",
+      "C05-P03",
+      "C05-P04",
+      "C05-P05"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C05-chunk-0002",
+    "chapter": 5,
+    "start_char": 1011,
+    "end_char": 2202,
+    "direct_evidence_point_ids": [
+      "C05-P04",
+      "C05-P05",
+      "C05-P06",
+      "C05-P07"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C05-chunk-0003",
+    "chapter": 5,
+    "start_char": 2052,
+    "end_char": 3187,
+    "direct_evidence_point_ids": [
+      "C05-P07",
+      "C05-P08",
+      "C05-P09",
+      "C05-P10",
+      "C05-P11"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C05-chunk-0004",
+    "chapter": 5,
+    "start_char": 3037,
+    "end_char": 4230,
+    "direct_evidence_point_ids": [
+      "C05-P11",
+      "C05-P12",
+      "C05-P13"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C05-chunk-0005",
+    "chapter": 5,
+    "start_char": 4080,
+    "end_char": 5265,
+    "direct_evidence_point_ids": [
+      "C05-P13",
+      "C05-P14",
+      "C05-P15",
+      "C05-P18",
+      "C05-P19"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C05-chunk-0006",
+    "chapter": 5,
+    "start_char": 5115,
+    "end_char": 6246,
+    "direct_evidence_point_ids": [
+      "C05-P09",
+      "C05-P16",
+      "C05-P17",
+      "C05-P20"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C05-chunk-0007",
+    "chapter": 5,
+    "start_char": 6096,
+    "end_char": 6418,
+    "direct_evidence_point_ids": [
+      "C05-R01"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C06-chunk-0001",
+    "chapter": 6,
+    "start_char": 0,
+    "end_char": 1059,
+    "direct_evidence_point_ids": [
+      "C06-P01",
+      "C06-P02",
+      "C06-P03"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C06-chunk-0002",
+    "chapter": 6,
+    "start_char": 909,
+    "end_char": 1884,
+    "direct_evidence_point_ids": [
+      "C06-P04",
+      "C06-P05",
+      "C06-P06",
+      "C06-P07",
+      "C06-P08",
+      "C06-P14"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C06-chunk-0003",
+    "chapter": 6,
+    "start_char": 1734,
+    "end_char": 2864,
+    "direct_evidence_point_ids": [
+      "C06-P08",
+      "C06-P09",
+      "C06-P10"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C06-chunk-0004",
+    "chapter": 6,
+    "start_char": 2714,
+    "end_char": 3568,
+    "direct_evidence_point_ids": [
+      "C06-P11",
+      "C06-P12",
+      "C06-P13"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C07-chunk-0001",
+    "chapter": 7,
+    "start_char": 0,
+    "end_char": 1144,
+    "direct_evidence_point_ids": [
+      "C07-P01",
+      "C07-P02",
+      "C07-P03",
+      "C07-P11"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C07-chunk-0002",
+    "chapter": 7,
+    "start_char": 994,
+    "end_char": 2129,
+    "direct_evidence_point_ids": [
+      "C07-P03",
+      "C07-P04",
+      "C07-P06"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C07-chunk-0003",
+    "chapter": 7,
+    "start_char": 1979,
+    "end_char": 3137,
+    "direct_evidence_point_ids": [
+      "C07-P04",
+      "C07-P05",
+      "C07-P07",
+      "C07-P08",
+      "C07-P09"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C07-chunk-0004",
+    "chapter": 7,
+    "start_char": 2987,
+    "end_char": 3390,
+    "direct_evidence_point_ids": [
+      "C07-P09",
+      "C07-P10"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C08-chunk-0001",
+    "chapter": 8,
+    "start_char": 0,
+    "end_char": 1178,
+    "direct_evidence_point_ids": [
+      "C08-P01",
+      "C08-P02",
+      "C08-P03",
+      "C08-P05",
+      "C08-P08"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C08-chunk-0002",
+    "chapter": 8,
+    "start_char": 1028,
+    "end_char": 1924,
+    "direct_evidence_point_ids": [
+      "C08-P03",
+      "C08-P04",
+      "C08-P05",
+      "C08-P06",
+      "C08-P07"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C09-chunk-0001",
+    "chapter": 9,
+    "start_char": 0,
+    "end_char": 1141,
+    "direct_evidence_point_ids": [
+      "C09-P01"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C09-chunk-0002",
+    "chapter": 9,
+    "start_char": 991,
+    "end_char": 2189,
+    "direct_evidence_point_ids": [
+      "C09-P02",
+      "C09-P03",
+      "C09-P04",
+      "C09-P05",
+      "C09-P06",
+      "C09-P07"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C09-chunk-0003",
+    "chapter": 9,
+    "start_char": 2039,
+    "end_char": 3203,
+    "direct_evidence_point_ids": [
+      "C09-P07",
+      "C09-P08",
+      "C09-P09"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C09-chunk-0004",
+    "chapter": 9,
+    "start_char": 3053,
+    "end_char": 4216,
+    "direct_evidence_point_ids": [
+      "C09-P10",
+      "C09-P11"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C09-chunk-0005",
+    "chapter": 9,
+    "start_char": 4066,
+    "end_char": 4803,
+    "direct_evidence_point_ids": [
+      "C09-P12"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C10-chunk-0001",
+    "chapter": 10,
+    "start_char": 0,
+    "end_char": 996,
+    "direct_evidence_point_ids": [
+      "C10-P01",
+      "C10-P02",
+      "C10-P03",
+      "C10-P04"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C10-chunk-0002",
+    "chapter": 10,
+    "start_char": 846,
+    "end_char": 1916,
+    "direct_evidence_point_ids": [
+      "C10-P02",
+      "C10-P05",
+      "C10-P06",
+      "C10-P07",
+      "C10-P08",
+      "C10-P09"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C10-chunk-0003",
+    "chapter": 10,
+    "start_char": 1766,
+    "end_char": 2671,
+    "direct_evidence_point_ids": [
+      "C10-P08",
+      "C10-P09",
+      "C10-P10",
+      "C10-P11"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C10-chunk-0004",
+    "chapter": 10,
+    "start_char": 2521,
+    "end_char": 3282,
+    "direct_evidence_point_ids": [
+      "C10-P11",
+      "C10-P12",
+      "C10-P13"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C11-chunk-0001",
+    "chapter": 11,
+    "start_char": 0,
+    "end_char": 1183,
+    "direct_evidence_point_ids": [
+      "C11-P01"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C11-chunk-0002",
+    "chapter": 11,
+    "start_char": 1033,
+    "end_char": 2182,
+    "direct_evidence_point_ids": [
+      "C11-P01",
+      "C11-P02",
+      "C11-P03",
+      "C11-P04",
+      "C11-P05"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C11-chunk-0003",
+    "chapter": 11,
+    "start_char": 2032,
+    "end_char": 3203,
+    "direct_evidence_point_ids": [
+      "C11-P03",
+      "C11-P04",
+      "C11-P05",
+      "C11-P06",
+      "C11-P07",
+      "C11-P08",
+      "C11-P09"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C11-chunk-0004",
+    "chapter": 11,
+    "start_char": 3053,
+    "end_char": 3418,
+    "direct_evidence_point_ids": [
+      "C11-P10"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C12-chunk-0001",
+    "chapter": 12,
+    "start_char": 0,
+    "end_char": 1144,
+    "direct_evidence_point_ids": [
+      "C12-P01",
+      "C12-P02",
+      "C12-P03",
+      "C12-P04",
+      "C12-P06"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C12-chunk-0002",
+    "chapter": 12,
+    "start_char": 994,
+    "end_char": 2101,
+    "direct_evidence_point_ids": [
+      "C12-P01",
+      "C12-P04",
+      "C12-P05",
+      "C12-P06",
+      "C12-P07",
+      "C12-P08"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C12-chunk-0003",
+    "chapter": 12,
+    "start_char": 1951,
+    "end_char": 3010,
+    "direct_evidence_point_ids": [
+      "C12-P08",
+      "C12-P09",
+      "C12-P10",
+      "C12-P11"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C13-chunk-0001",
+    "chapter": 13,
+    "start_char": 0,
+    "end_char": 1130,
+    "direct_evidence_point_ids": [
+      "C13-P01",
+      "C13-P02",
+      "C13-P03",
+      "C13-P04"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C13-chunk-0002",
+    "chapter": 13,
+    "start_char": 980,
+    "end_char": 1835,
+    "direct_evidence_point_ids": [
+      "C13-P04",
+      "C13-P05",
+      "C13-P06",
+      "C13-P07",
+      "C13-P08",
+      "C13-P09",
+      "C13-P10"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C14-chunk-0001",
+    "chapter": 14,
+    "start_char": 0,
+    "end_char": 1190,
+    "direct_evidence_point_ids": [
+      "C14-P01",
+      "C14-P02",
+      "C14-P03",
+      "C14-P04",
+      "C14-P16",
+      "C14-P17"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C14-chunk-0002",
+    "chapter": 14,
+    "start_char": 1040,
+    "end_char": 2164,
+    "direct_evidence_point_ids": [
+      "C14-P01",
+      "C14-P05",
+      "C14-P06",
+      "C14-P07",
+      "C14-P08",
+      "C14-P09",
+      "C14-P10",
+      "C14-P11"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C14-chunk-0003",
+    "chapter": 14,
+    "start_char": 2014,
+    "end_char": 3099,
+    "direct_evidence_point_ids": [
+      "C14-P09",
+      "C14-P10",
+      "C14-P11",
+      "C14-P12",
+      "C14-P13"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C14-chunk-0004",
+    "chapter": 14,
+    "start_char": 2949,
+    "end_char": 4054,
+    "direct_evidence_point_ids": [
+      "C14-P14",
+      "C14-P15"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C14-chunk-0005",
+    "chapter": 14,
+    "start_char": 3904,
+    "end_char": 4219,
+    "direct_evidence_point_ids": [
+      "C14-P15"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C15-chunk-0001",
+    "chapter": 15,
+    "start_char": 0,
+    "end_char": 1187,
+    "direct_evidence_point_ids": [
+      "C15-P01",
+      "C15-P02",
+      "C15-P03",
+      "C15-P04",
+      "C15-P05",
+      "C15-P06"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C15-chunk-0002",
+    "chapter": 15,
+    "start_char": 1037,
+    "end_char": 2221,
+    "direct_evidence_point_ids": [
+      "C15-P07"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C15-chunk-0003",
+    "chapter": 15,
+    "start_char": 2071,
+    "end_char": 3196,
+    "direct_evidence_point_ids": [
+      "C15-P08",
+      "C15-P09"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C15-chunk-0004",
+    "chapter": 15,
+    "start_char": 3046,
+    "end_char": 4131,
+    "direct_evidence_point_ids": [
+      "C15-P10",
+      "C15-P11"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C15-chunk-0005",
+    "chapter": 15,
+    "start_char": 3981,
+    "end_char": 4995,
+    "direct_evidence_point_ids": [
+      "C15-P12",
+      "C15-P13",
+      "C15-R01"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C16-chunk-0001",
+    "chapter": 16,
+    "start_char": 0,
+    "end_char": 1169,
+    "direct_evidence_point_ids": [
+      "C16-P01",
+      "C16-P02",
+      "C16-P03",
+      "C16-P04"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C16-chunk-0002",
+    "chapter": 16,
+    "start_char": 1019,
+    "end_char": 2066,
+    "direct_evidence_point_ids": [
+      "C16-P04",
+      "C16-P05",
+      "C16-P07"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C16-chunk-0003",
+    "chapter": 16,
+    "start_char": 1916,
+    "end_char": 3097,
+    "direct_evidence_point_ids": [
+      "C16-P06",
+      "C16-P07",
+      "C16-P08"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C16-chunk-0004",
+    "chapter": 16,
+    "start_char": 2947,
+    "end_char": 3486,
+    "direct_evidence_point_ids": [
+      "C16-P09"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C17-chunk-0001",
+    "chapter": 17,
+    "start_char": 0,
+    "end_char": 981,
+    "direct_evidence_point_ids": [
+      "C17-P01",
+      "C17-P02",
+      "C17-P03"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C17-chunk-0002",
+    "chapter": 17,
+    "start_char": 831,
+    "end_char": 1775,
+    "direct_evidence_point_ids": [
+      "C17-P03",
+      "C17-P04",
+      "C17-P05"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C17-chunk-0003",
+    "chapter": 17,
+    "start_char": 1625,
+    "end_char": 2823,
+    "direct_evidence_point_ids": [
+      "C17-P06",
+      "C17-P07",
+      "C17-P08"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C17-chunk-0004",
+    "chapter": 17,
+    "start_char": 2673,
+    "end_char": 3810,
+    "direct_evidence_point_ids": [
+      "C17-P09",
+      "C17-P10"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C17-chunk-0005",
+    "chapter": 17,
+    "start_char": 3660,
+    "end_char": 4031,
+    "direct_evidence_point_ids": [
+      "C17-P10",
+      "C17-P11",
+      "C17-R01"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C18-chunk-0001",
+    "chapter": 18,
+    "start_char": 0,
+    "end_char": 889,
+    "direct_evidence_point_ids": [
+      "C18-P01",
+      "C18-P02",
+      "C18-P03"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C18-chunk-0002",
+    "chapter": 18,
+    "start_char": 739,
+    "end_char": 1757,
+    "direct_evidence_point_ids": [
+      "C18-P03",
+      "C18-P04",
+      "C18-P05",
+      "C18-P06"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C18-chunk-0003",
+    "chapter": 18,
+    "start_char": 1607,
+    "end_char": 2770,
+    "direct_evidence_point_ids": [
+      "C18-P07",
+      "C18-P08",
+      "C18-P09"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C18-chunk-0004",
+    "chapter": 18,
+    "start_char": 2620,
+    "end_char": 3694,
+    "direct_evidence_point_ids": [
+      "C18-P09",
+      "C18-P10",
+      "C18-P11"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C18-chunk-0005",
+    "chapter": 18,
+    "start_char": 3544,
+    "end_char": 4594,
+    "direct_evidence_point_ids": [
+      "C18-P12"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C18-chunk-0006",
+    "chapter": 18,
+    "start_char": 4444,
+    "end_char": 5460,
+    "direct_evidence_point_ids": [
+      "C18-P12"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C19-chunk-0001",
+    "chapter": 19,
+    "start_char": 0,
+    "end_char": 975,
+    "direct_evidence_point_ids": [
+      "C19-P01",
+      "C19-P02",
+      "C19-P03",
+      "C19-P04"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C19-chunk-0002",
+    "chapter": 19,
+    "start_char": 825,
+    "end_char": 1818,
+    "direct_evidence_point_ids": [
+      "C19-P04",
+      "C19-P05",
+      "C19-P06",
+      "C19-P07"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C19-chunk-0003",
+    "chapter": 19,
+    "start_char": 1668,
+    "end_char": 2862,
+    "direct_evidence_point_ids": [
+      "C19-P07",
+      "C19-P08",
+      "C19-P09",
+      "C19-P10",
+      "C19-P11"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C19-chunk-0004",
+    "chapter": 19,
+    "start_char": 2712,
+    "end_char": 3811,
+    "direct_evidence_point_ids": [
+      "C19-P12",
+      "C19-P13",
+      "C19-P14",
+      "C19-P15"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  },
+  {
+    "source_id": "C19-chunk-0005",
+    "chapter": 19,
+    "start_char": 3661,
+    "end_char": 4568,
+    "direct_evidence_point_ids": [
+      "C19-P16",
+      "C19-P17",
+      "C19-P18",
+      "C19-P19"
+    ],
+    "review": "复核叙事情境、机制、限定与结论；重叠不另算知识量",
+    "unmapped_text_reason": "无直接证据锚点的部分多为人物行动、重复例子、具体年代金额或本章观点的展开；不据机器匹配宣称语义全覆盖"
+  }
+]

@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'island-book-understanding-v4';
+const STORAGE_KEY = 'island-book-skills-v9';
 const $ = s => document.querySelector(s);
 const validIds = new Set(bank.flatMap(c => c.questions.map(q => q.id)));
 let records = {};
@@ -61,7 +61,7 @@ function answer(n,c,i,q) {
   });
   const selectedNote=correct?'':`<div class="analysis-block chosen-view"><b>所选观点与本章论证的区别</b><p>${q.optionRationales[options[n].n]}</p></div>`;
   const comparison=`<details class="option-comparison"><summary>查看四个选项的观点差异</summary><p class="comparison-note">按题意辨认作者的论证。这些不同解释不代表任何特定学派的正式立场，也不意味着在所有情境下都不成立。</p><ol>${options.map((o,j)=>`<li><b>${'ABCD'[j]} · ${o.n===q.answer?'本题应选':'另一种解释'}</b><p class="comparison-option">${o.text}</p><p>${q.optionRationales[o.n]}</p></li>`).join('')}</ol></details>`;
-  $('#feedback').innerHTML=`<div class="feedback"><strong>${correct?'✓ 回答正确':'所选答案不够准确'} · 正确答案 ${'ABCD'[options.findIndex(o=>o.n===q.answer)]}</strong>${selectedNote}<div class="analysis-block"><b>作者为什么这样认为</b><p>${q.explanation}</p></div>${comparison}<div class="analysis-block boundary"><b>对应作者观点 · ${q.pointId}</b><p>${q.claim}</p></div><div class="source-line">原书：第 ${c+1} 章《${bank[c].title}》 · PDF 第 ${q.source.pdfPage} 页<br>定位词：${q.source.locator}</div></div>`;
+  $('#feedback').innerHTML=`<div class="feedback"><strong>${correct?'✓ 回答正确':'所选答案不够准确'} · 正确答案 ${'ABCD'[options.findIndex(o=>o.n===q.answer)]}</strong>${selectedNote}<div class="analysis-block"><b>作者为什么这样认为</b><p>${q.explanation}</p></div>${comparison}<div class="analysis-block boundary"><b>对应作者观点 · ${q.pointId}</b><p>${q.claim}</p></div><details class="source-evidence"><summary>查看原文依据 · ${q.source.evidenceStatus==='inferred'?'跨句归纳':'原文直述'}</summary>${q.source.evidence.map(e=>`<blockquote>${e.excerpt}<cite>PDF 第 ${e.page} 页</cite></blockquote>`).join('')}<p>本题考察：${q.objective}</p><p>适用提示：${q.conditions.join('；')}</p></details><div class="source-line">原书：第 ${c+1} 章《${bank[c].title}》 · PDF 第 ${q.source.pdfPage} 页<br>定位词：${q.source.locator}</div></div>`;
   $('#nextSlot').innerHTML=`<button class="primary" id="next">${index+1===queue.length?'查看本轮结果':'下一题 →'}</button>`;
   $('#next').onclick=()=>{index++;render();$('#practice').scrollIntoView({behavior:'smooth',block:'start'});$('#questionTitle')?.focus({preventScroll:true});};
   stats();
